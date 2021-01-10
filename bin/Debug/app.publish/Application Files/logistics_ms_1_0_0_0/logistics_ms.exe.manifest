@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="logistics_ms.exe" version="1.0.0.0" publicKeyToken="a3bf999560b46082" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="logitruck_veS_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="logistics_ms" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="logistics_ms.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="logistics_ms.exe" size="1696256">
+      <assemblyIdentity name="logistics_ms" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>tjplzsM7leDKuiw0n9BOmbD9UW4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logistics_ms.exe.config" size="486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>khtNGw60cCpX0Jsi1+oUGGxcxKk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logitruck_veS_icon.ico" size="81800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YxCdSMuUC+i4Ml7IJNinWb/eGvE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=HP\HP1" issuerKeyHash="443d2097fd7c8ea6162d99709a54e73590ccf21e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>W+CzuRBcuNLynmAZUkJEfNtybyM=</DigestValue></Reference></SignedInfo><SignatureValue>uRwfEtM1/6JKSbG+rM5ROsyDWT1xET3M2n+ZcQbGv/IWUI3wQ73LG0V0b+SzhkQE40H4B+gvo1pL9WTkl9eSgHGhcJ7+6MkNLFEjoIGcrsLWyb+1fplBtCD83q7FVXYt4v//yW3X/3V6VX01k9lu0MRchgizuUqnVRtIvLfodto=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0u57gf5LwvoBolb0rOo7Nu3KxPtR/CNDynBKaIOWrBJXkdIoR51xuNWhysr3CuYFSwvwKu70znyRySgK8CXDQXt+66lXppgvtcEVu1y1S1ngRPPXyt2ntjhOVFDlTPqxBk66bjzKG9gdN9Ngt6vrM0NGagMyVky4NG0oATZPRLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="236f72db7c44425219609ef2d2b85c10b9b3e05b" Description="" Url=""><as:assemblyIdentity name="logistics_ms.exe" version="1.0.0.0" publicKeyToken="a3bf999560b46082" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HP\HP1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>DzhUtSLOe2Pkb3K9EPv2JNGGEww=</DigestValue></Reference></SignedInfo><SignatureValue>wBtLdAHzNwzGVENQfbrhQXyVQ3Zz1ZSCRXMJ8qlbOY9aqdT1sMB7YKJgvWyijh1AWqB96/baxAS/jGlaggnmJiHqJOSzT0Ge9Gvl98q6sqK13JBYuMoQqKF+1iHzcaj0DlmHIMvTDSh5Weh24yajOBJDz4KzbatmQCmQ6kLKhgc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0u57gf5LwvoBolb0rOo7Nu3KxPtR/CNDynBKaIOWrBJXkdIoR51xuNWhysr3CuYFSwvwKu70znyRySgK8CXDQXt+66lXppgvtcEVu1y1S1ngRPPXyt2ntjhOVFDlTPqxBk66bjzKG9gdN9Ngt6vrM0NGagMyVky4NG0oATZPRLk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBsTCCARqgAwIBAgIQFXQPvVGx8qRA1/oG7+yDmjANBgkqhkiG9w0BAQUFADAXMRUwEwYDVQQDHgwASABQAFwASABQADEwHhcNMTYwNDA0MDU0OTU3WhcNMTcwNDA0MTE0OTU3WjAXMRUwEwYDVQQDHgwASABQAFwASABQADEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANLue4H+S8L6AaJW9KzqOzbtysT7UfwjQ8pwSmiDlqwSV5HSKEedcbjVocrK9wrmBUsL8Cru9M58kckoCvAlw0F7fuupV6aYL7XBFbtctUtZ4ETz18rdp7Y4TlRQ5Uz6sQZOum48yhvYHTfTYLer6zNDRmoDMlZMuDRtKAE2T0S5AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAlOdRtl1AjHk2VQltRYMHx7CcXMxZ5364SrskigWOI+sQjsiieoyppuXX3eDq1IsVXXWEMb3vs/bhyHNAToeRsr72VEL0v/0dMAbuwRyzlhlEbMYdxBYlPfl0iRb2akVFJwZh0xjld1mqQHkyURYilr4VnSR2YGUtQhTNFQFVgL8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
